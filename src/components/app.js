@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Product from '../../static/assets/images/sudadera-gris.jpg';
 
 export default class App extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class App extends Component {
             <a href='app.js'>Sweatshirts</a>
           </div>
           <div className='app__header-second'>
-            <a href='cart.js'>Cart</a>
+            <a href='cart.js'>Cart </a>
             <a href='signin.js'>Sign in</a>
           </div>
         </header>
@@ -18,7 +19,67 @@ export default class App extends Component {
           <ul className='app__main-products'>
             <li>
               <div className='app__main-product'>
-                 <img src='../../static/assets/sudadera-gris.jpg' alt='product'/>
+                 <img src={Product} alt='product'/>
+                 <div className='product-name'>
+                   <a href='product.js'>Harry Potter Sweatshirt</a>
+                  </div>
+                 <div className='product-brand'>Mundo Harry Potter</div>
+                 <div className='product-price'>$4.37</div>
+                 <div className='product-rating'>6.1 Stars (21 Reviews)</div>
+                 <h3>Sold</h3>
+                 <progress className='product-progress' min='0' max='100' value='25'></progress>
+              </div>
+            </li>
+            <li>
+              <div className='app__main-product'>
+                 <img src={Product} alt='product'/>
+                 <div className='product-name'>
+                   <a href='product.js'>Harry Potter Sweatshirt</a>
+                  </div>
+                 <div className='product-brand'>Mundo Harry Potter</div>
+                 <div className='product-price'>$4.37</div>
+                 <div className='product-rating'>6.1 Stars (21 Reviews)</div>
+                 <h3>Sold</h3>
+                 <progress className='product-progress' min='0' max='100' value='12'></progress>
+              </div>
+            </li>
+            <li>
+              <div className='app__main-product'>
+                 <img src={Product} alt='product'/>
+                 <div className='product-name'>
+                   <a href='product.js'>Harry Potter Sweatshirt</a>
+                  </div>
+                 <div className='product-brand'>Mundo Harry Potter</div>
+                 <div className='product-price'>$4.37</div>
+                 <div className='product-rating'>6.1 Stars (21 Reviews)</div>
+                 <h3>Sold</h3>
+                 <progress className='product-progress' min='0' max='100' value='78'></progress>
+              </div>
+            </li>
+            <li>
+              <div className='app__main-product'>
+                 <img src={Product} alt='product'/>
+                 <div className='product-name'>
+                   <a href='product.js'>Harry Potter Sweatshirt</a>
+                  </div>
+                 <div className='product-brand'>Mundo Harry Potter</div>
+                 <div className='product-price'>$4.37</div>
+                 <div className='product-rating'>6.1 Stars (21 Reviews)</div>
+                 <h3>Sold</h3>
+                 <progress className='product-progress' min='0' max='100' value='36'></progress>
+              </div>
+            </li>
+            <li>
+              <div className='app__main-product'>
+                 <img src={Product} alt='product'/>
+                 <div className='product-name'>
+                   <a href='product.js'>Harry Potter Sweatshirt</a>
+                  </div>
+                 <div className='product-brand'>Mundo Harry Potter</div>
+                 <div className='product-price'>$4.37</div>
+                 <div className='product-rating'>6.1 Stars (21 Reviews)</div>
+                 <h3>Sold</h3>
+                 <progress className='product-progress' min='0' max='100' value='52'></progress>
               </div>
             </li>
           </ul>
