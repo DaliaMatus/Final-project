@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import data from '../database/database';
+import {Link} from "react-router-dom";
+
 
 export default class Home extends Component {
     render() {
@@ -9,9 +11,11 @@ export default class Home extends Component {
                 data.products.map(product=>
                 <li>
                   <div className='app__main-product'>
-                    <img src={product.image} alt='product'/>
+                    <Link to={'/product/' + product._id}>
+                        <img src={product.image} alt='product'/>
+                    </Link>
                     <div className='product-name'>
-                      <a href='product.js'>{product.name}</a>
+                      <Link to={'/product/' + product._id}>{product.name}</Link>
                     </div>
                     <div className='product-brand'>{product.brand}</div>
                     <div className='product-price'>${product.price}</div>
