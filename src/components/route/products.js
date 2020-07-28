@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import data from '../database/database';
 
-export default class Products extends Component {
-    render() {
+function Products(props) {
+        const product=data.products.find(x=> x._id === props.match.params.id);
         return (
             <div>
-                Products
+                <h1>{product.name}</h1>
             </div>
         )
-    }
+
 }
+
+export default Products;

@@ -12,7 +12,7 @@ export default{
       },
       {
         _id: '2',
-        image: '../../../static/assets/images/sudadera-negra-pink.jpg',
+        image:'../../../static/assets/images/sudadera-negra-pink.jpg',
         name: "Victoria's Secret Sweatshirt",
         brand: "PINK - Victoria's Secret",
         price: 46.95,
@@ -23,7 +23,7 @@ export default{
       },
       {
         _id: '3',
-        image: '../../../static/assets/images/sudadera-rosa.jpg',
+        image:'../../../static/assets/images/sudadera-rosa.jpg',
         name: 'Pink Sweatshirt',
         brand: 'Harajuku',
         price: 25.04,
@@ -43,7 +43,7 @@ export default{
       },
       {
         _id: '5',
-        image: '../../../static/assets/images/sudadera-gris-adidas.jpg',
+        image:'../../../static/assets/images/sudadera-gris-adidas.jpg',
         name: 'Adidas Originals',
         brand: 'Adidas',
         price: 57.33,
@@ -53,7 +53,7 @@ export default{
       },
       {
         _id: '6',
-        image: '../../../static/assets/images/sudadera-negra-aeropostale.jpg',
+        image:'../../../static/assets/images/sudadera-negra-aeropostale.jpg',
         name: 'Black Aéropostale Sweatshirt',
         brand: 'Aéropostale',
         price: 35.95,
@@ -73,7 +73,7 @@ export default{
       },
       {
         _id: '8',
-        image: '../../../static/assets/images/sudadera-negra-mula.jpg',
+        image:'../../../static/assets/images/sudadera-negra-mula.jpg',
         name: 'Casual Sweatshirt',
         brand: 'Mula',
         price: 16.33,

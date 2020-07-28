@@ -51,7 +51,7 @@ export default class App extends Component {
           <main className='app__main'>
             <div className='app__main-content'>
               <Route exact path="/" component={Home}/>
-              <Route  path="/products/:id" component={Products}/>
+              <Route  path="/product/:id" component={Products}/>
             </div>
           </main>
           <footer className='app__footer'>
